@@ -14,7 +14,8 @@
     "url": "https://github.com/zombiec0rn/zombie-service-diff.git"
   },
   "keywords": [
-    "zombie"
+    "zombie-service",
+    "zombiec0rn"
   ],
   "author": "Asbjorn Enge <asbjorn@hanafjedle.net>",
   "license": "BSD",
