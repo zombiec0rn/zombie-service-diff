@@ -23,7 +23,10 @@
   },
   "homepage": "https://github.com/zombiec0rn/zombie-service-diff",
   "devDependencies": {
+    "clone": "^1.0.2"
   },
   "dependencies": {
+    "@zombiec0rn/zombie-service-format": "^1.0.0",
+    "@zombiec0rn/zombie-service-scale": "^1.0.0"
   }
 }
