@@ -1,7 +1,6 @@
 var assert  = require('assert')
-var cccf    = require('cccf')
-var example = require('cccf/example.json')
-var cs      = require('cccf-scale')
+var zsf     = require('@zombiec0rn/zombie-service-format')
+var scale   = require('@zombiec0rn/zombie-service-scale')
 var clone   = require('clone')
 var cdiff   = require('../index')
 
@@ -45,7 +44,7 @@ describe('cccd-diff', function() {
 
 	it('validates input', function() {
 		try { cdiff({},[]) } catch(e) {
-			assert(e instanceof cccf.exception)
+			assert(e instanceof zsf.exception)
 		}
 	})
 
