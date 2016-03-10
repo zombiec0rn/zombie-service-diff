@@ -1,6 +1,8 @@
 # Zombie Service Diff
 
-Diff two [zombies](). It takes a `current` and a `wanted` state and returns an object containing `add`, `remove` and `keep` properties. 
+Diff two [zombies](). 
+
+It takes a `current` and a `wanted` state and returns an object containing `add`, `remove` and `keep` properties. 
 
 ## Install
 
