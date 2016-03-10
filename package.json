@@ -1,0 +1,29 @@
+{
+  "name": "@zombiec0rn/zombie-service-diff",
+  "version": "1.0.0",
+  "description": "Zombie Service (format) differ",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha -R nyan -w --check-leaks"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zombiec0rn/zombie-service-diff.git"
+  },
+  "keywords": [
+    "zombie"
+  ],
+  "author": "Asbjorn Enge <asbjorn@hanafjedle.net>",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/zombiec0rn/zombie-service-diff/issues"
+  },
+  "homepage": "https://github.com/zombiec0rn/zombie-service-diff",
+  "devDependencies": {
+  },
+  "dependencies": {
+  }
+}
