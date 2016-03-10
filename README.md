@@ -1,6 +1,6 @@
 # Zombie Service Diff
 
-Diff two [zombies](). 
+Diff two [zombie]() service states. 
 
 It takes a `current` and a `wanted` state and returns an object containing `add`, `remove` and `keep` properties. 
 
@@ -13,7 +13,7 @@ npm install --save @zombiec0rn/zombie-service-diff
 ## Use
 
 ```js
-var diff = require('cccf-diff')(current, wanted)
+require('@zombiec0rn/zombie-service-diff')(current, wanted)
 // => { add : [], remove : [], keep : [] }
 ```
 
