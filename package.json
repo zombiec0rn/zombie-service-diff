@@ -27,6 +27,7 @@
   },
   "dependencies": {
     "@zombiec0rn/zombie-service-format": "^1.0.0",
-    "@zombiec0rn/zombie-service-scale": "^1.0.0"
+    "@zombiec0rn/zombie-service-scale": "^1.0.0",
+    "object-hash": "^1.1.2"
   }
 }
