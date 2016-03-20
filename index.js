@@ -5,7 +5,7 @@ var unify = function(config) {
   return (config instanceof Array) ? config : [config]
 }
 var uid = function(container) { 
-  return hash(container)
+  return container.fingerprint || hash(container)
 }
 
 module.exports = function(current, wanted) {
@@ -23,3 +23,5 @@ module.exports = function(current, wanted) {
     remove : remove
   }
 }
+
+module.exports.fingerprint = hash

@@ -64,4 +64,21 @@ describe('cccd-diff', function() {
     assert(diff.remove.length == 0)
   })
 
+  it('will obey a fingerprint property over the actual object hash', function() {
+    var current = zsf.random(1)
+    var wanted  = zsf.random(1)
+    current[0].fingerprint = '12345'
+    wanted[0].fingerprint = '12345'
+    var diff = cdiff(current, wanted)
+    assert(diff.add.length == 0)
+    assert(diff.keep.length == 1)
+    assert(diff.remove.length == 0)
+  })
+
+  it('exposes the object-hash functionality', function() {
+    var service = zsf.random(1)
+    var fingerprint = cdiff.fingerprint(service[0])
+    assert(typeof fingerprint == 'string')
+  })
+
 })
