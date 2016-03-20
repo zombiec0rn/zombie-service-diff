@@ -1,6 +1,6 @@
 {
   "name": "@zombiec0rn/zombie-service-diff",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Zombie Service (format) differ",
   "main": "index.js",
   "directories": {
